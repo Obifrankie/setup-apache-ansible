@@ -14,6 +14,6 @@ The path to the apache play is roles/apache/tasks/main.yaml
 The prepare work play handles depenedencies
 The path play the apache play is roles/prepare/tasks/main.yaml
 
-To run this script localy ensure that you have ansile configured locally by running the show command python3 -m pip show ansible
+To run this playbook localy ensure that you have ansile configured locally by running the show command python3 -m pip show ansible
 
-and run the script with the following command ansible-playbook main.yml
+and run the playbook with the following command ansible-playbook main.yml
